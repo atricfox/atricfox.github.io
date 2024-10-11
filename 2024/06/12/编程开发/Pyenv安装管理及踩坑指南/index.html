@@ -20,15 +20,15 @@
   <title>Pyenv安装管理及踩坑指南 - 北极狐的世界</title>
 
   
-    <meta name="description" content="最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。 安装pyenv方式1（推荐）：一键安装1curl -L https:&#x2F;&#x2F;github.com&#x2F;pyenv&#x2F;pyenv-installer&#x2F;raw&#x2F;master&#x2F;bin&#x2F;pyenv-installer | bash  适用于各平台 方式2：使用git来安装12git clone https:&#x2F;&#x2F;">
+    <meta name="description" content="最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。 安装pyenv方式1（推荐）：一键安装curl -L https:&#x2F;&#x2F;github.com&#x2F;pyenv&#x2F;pyenv-installer&#x2F;raw&#x2F;master&#x2F;bin&#x2F;pyenv-installer | bash  适用于各平台 方式2：使用git来安装git clone https:&#x2F;&#x2F;git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Pyenv安装管理及踩坑指南">
 <meta property="og:url" content="http://atricfox.github.io/2024/06/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/Pyenv%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E5%8F%8A%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/index.html">
 <meta property="og:site_name" content="北极狐的世界">
-<meta property="og:description" content="最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。 安装pyenv方式1（推荐）：一键安装1curl -L https:&#x2F;&#x2F;github.com&#x2F;pyenv&#x2F;pyenv-installer&#x2F;raw&#x2F;master&#x2F;bin&#x2F;pyenv-installer | bash  适用于各平台 方式2：使用git来安装12git clone https:&#x2F;&#x2F;">
+<meta property="og:description" content="最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。 安装pyenv方式1（推荐）：一键安装curl -L https:&#x2F;&#x2F;github.com&#x2F;pyenv&#x2F;pyenv-installer&#x2F;raw&#x2F;master&#x2F;bin&#x2F;pyenv-installer | bash  适用于各平台 方式2：使用git来安装git clone https:&#x2F;&#x2F;git">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-06-12T13:25:00.000Z">
-<meta property="article:modified_time" content="2024-10-11T13:27:32.541Z">
+<meta property="article:modified_time" content="2024-10-11T13:51:14.124Z">
 <meta property="article:author" content="atricfox">
 <meta property="article:tag" content="python">
 <meta property="article:tag" content="pyenv">
@@ -67,7 +67,7 @@
 <div class="widgets">
 
 
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/06/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/Pyenv%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E5%8F%8A%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/"><span class="title">Pyenv安装管理及踩坑指南</span></a><a class="item title" href="/2024/10/11/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E5%A6%82%E4%BD%95%E6%83%B3%E5%88%B0%E5%8F%88%E5%81%9A%E5%88%B0%EF%BC%9F/"><span class="title">如何想到又做到？</span></a><a class="item title" href="/2024/10/03/%E6%9D%82%E8%B0%88/%E5%A6%82%E4%B9%8B%E5%A5%88%E4%BD%95%E8%AE%BA/"><span class="title">如之奈何论</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/10/11/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E5%A6%82%E4%BD%95%E6%83%B3%E5%88%B0%E5%8F%88%E5%81%9A%E5%88%B0%EF%BC%9F/"><span class="title">如何想到又做到？</span></a><a class="item title" href="/2024/10/03/%E6%9D%82%E8%B0%88/%E5%A6%82%E4%B9%8B%E5%A5%88%E4%BD%95%E8%AE%BA/"><span class="title">如之奈何论</span></a><a class="item title" href="/2024/06/12/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/Pyenv%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E5%8F%8A%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/"><span class="title">Pyenv安装管理及踩坑指南</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -80,7 +80,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/">编程开发</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-12T13:25:00.000Z">2024-06-12</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-11T13:27:32.541Z">2024-10-11</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-12T13:25:00.000Z">2024-06-12</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-10-11T13:51:14.124Z">2024-10-11</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -92,19 +92,80 @@
     
   </div>
   </div><article class="md-text content"><p>最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。</p>
-<h2 id="安装pyenv"><a href="#安装pyenv" class="headerlink" title="安装pyenv"></a>安装pyenv</h2><h3 id="方式1（推荐）：一键安装"><a href="#方式1（推荐）：一键安装" class="headerlink" title="方式1（推荐）：一键安装"></a>方式1（推荐）：一键安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash</span><br></pre></td></tr></table></figure>
+<h2 id="安装pyenv"><a href="#安装pyenv" class="headerlink" title="安装pyenv"></a>安装pyenv</h2><h3 id="方式1（推荐）：一键安装"><a href="#方式1（推荐）：一键安装" class="headerlink" title="方式1（推荐）：一键安装"></a>方式1（推荐）：一键安装</h3><pre><code class="highlight shell">curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash</code></pre>
 
 <p>适用于各平台</p>
-<h3 id="方式2：使用git来安装"><a href="#方式2：使用git来安装" class="headerlink" title="方式2：使用git来安装"></a>方式2：使用git来安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/pyenv/pyenv.git ~/.pyenv</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="方式2：使用git来安装"><a href="#方式2：使用git来安装" class="headerlink" title="方式2：使用git来安装"></a>方式2：使用git来安装</h3><pre><code class="highlight shell">git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+</code></pre>
 <p>在bashrc 或者 zshrc中添加如下脚本：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export PYENV_ROOT=&quot;$HOME/.pyenv&quot;</span><br><span class="line">[[ -d $PYENV_ROOT/bin ]] &amp;&amp; export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;</span><br><span class="line">eval &quot;$(pyenv init -)&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight shell">export PYENV_ROOT=&quot;$HOME/.pyenv&quot;
+[[ -d $PYENV_ROOT/bin ]] &amp;&amp; export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;
+eval &quot;$(pyenv init -)&quot;
+</code></pre>
 
-<h2 id="pyenv-国内镜像添加Python版本："><a href="#pyenv-国内镜像添加Python版本：" class="headerlink" title="pyenv 国内镜像添加Python版本："></a>pyenv 国内镜像添加Python版本：</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export v=3.12.4; wget https://mirrors.huaweicloud.com/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v</span><br></pre></td></tr></table></figure>
+<h2 id="pyenv-国内镜像添加Python版本："><a href="#pyenv-国内镜像添加Python版本：" class="headerlink" title="pyenv 国内镜像添加Python版本："></a>pyenv 国内镜像添加Python版本：</h2><pre><code class="highlight shell">export v=3.12.4; wget https://mirrors.huaweicloud.com/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v</code></pre>
 <p>目前华为的镜像相对稳定快速，淘宝的当下无法使用，也可以尝试其他Python镜像，<strong>留意不是pip镜像</strong>。</p>
-<h2 id="安装Python版本的报错"><a href="#安装Python版本的报错" class="headerlink" title="安装Python版本的报错"></a>安装Python版本的报错</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"> export v=3.12.4; wget https://mirrors.huaweicloud.com/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v</span><br><span class="line">--2024-06-12 10:20:23--  https://mirrors.huaweicloud.com/python/3.12.4/Python-3.12.4.tar.xz</span><br><span class="line">Resolving mirrors.huaweicloud.com (mirrors.huaweicloud.com)... 124.70.125.153, 124.70.125.167</span><br><span class="line">Connecting to mirrors.huaweicloud.com (mirrors.huaweicloud.com)|124.70.125.153|:443... connected.</span><br><span class="line">HTTP request sent, awaiting response... 200</span><br><span class="line">Length: 20659356 (20M) [application/octet-stream]</span><br><span class="line">Saving to: ‘/root/.pyenv/cache/Python-3.12.4.tar.xz’</span><br><span class="line"></span><br><span class="line">Python-3.12.4.tar.xz   100%[============================&gt;]  19.70M  4.91MB/s    in 4.0s</span><br><span class="line"></span><br><span class="line">2024-06-12 10:20:28 (4.91 MB/s) - ‘/root/.pyenv/cache/Python-3.12.4.tar.xz’ saved [20659356/20659356]</span><br><span class="line"></span><br><span class="line">Installing Python-3.12.4...</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/bz2.py&quot;, line 17, in &lt;module&gt;</span><br><span class="line">    from _bz2 import BZ2Compressor, BZ2Decompressor</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_bz2&#x27;</span><br><span class="line">WARNING: The Python bz2 extension was not compiled. Missing the bzip2 lib?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/curses/__init__.py&quot;, line 13, in &lt;module&gt;</span><br><span class="line">    from _curses import *</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_curses&#x27;</span><br><span class="line">WARNING: The Python curses extension was not compiled. Missing the ncurses lib?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/ctypes/__init__.py&quot;, line 8, in &lt;module&gt;</span><br><span class="line">    from _ctypes import Union, Structure, Array</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_ctypes&#x27;</span><br><span class="line">WARNING: The Python ctypes extension was not compiled. Missing the libffi lib?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">ModuleNotFoundError: No module named &#x27;readline&#x27;</span><br><span class="line">WARNING: The Python readline extension was not compiled. Missing the GNU readline lib?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/sqlite3/__init__.py&quot;, line 57, in &lt;module&gt;</span><br><span class="line">    from sqlite3.dbapi2 import *</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/sqlite3/dbapi2.py&quot;, line 27, in &lt;module&gt;</span><br><span class="line">    from _sqlite3 import *</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_sqlite3&#x27;</span><br><span class="line">WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/tkinter/__init__.py&quot;, line 38, in &lt;module&gt;</span><br><span class="line">    import _tkinter # If this fails your Python may not be configured for Tk</span><br><span class="line">    ^^^^^^^^^^^^^^^</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_tkinter&#x27;</span><br><span class="line">WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/lzma.py&quot;, line 27, in &lt;module&gt;</span><br><span class="line">    from _lzma import *</span><br><span class="line">ModuleNotFoundError: No module named &#x27;_lzma&#x27;</span><br><span class="line">WARNING: The Python lzma extension was not compiled. Missing the lzma lib?</span><br><span class="line">Installed Python-3.12.4 to /root/.pyenv/versions/3.12.4</span><br></pre></td></tr></table></figure>
+<h2 id="安装Python版本的报错"><a href="#安装Python版本的报错" class="headerlink" title="安装Python版本的报错"></a>安装Python版本的报错</h2><pre><code class="highlight shell"> export v=3.12.4; wget https://mirrors.huaweicloud.com/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/; pyenv install $v
+--2024-06-12 10:20:23--  https://mirrors.huaweicloud.com/python/3.12.4/Python-3.12.4.tar.xz
+Resolving mirrors.huaweicloud.com (mirrors.huaweicloud.com)... 124.70.125.153, 124.70.125.167
+Connecting to mirrors.huaweicloud.com (mirrors.huaweicloud.com)|124.70.125.153|:443... connected.
+HTTP request sent, awaiting response... 200
+Length: 20659356 (20M) [application/octet-stream]
+Saving to: ‘/root/.pyenv/cache/Python-3.12.4.tar.xz’
+
+Python-3.12.4.tar.xz   100%[============================&gt;]  19.70M  4.91MB/s    in 4.0s
+
+2024-06-12 10:20:28 (4.91 MB/s) - ‘/root/.pyenv/cache/Python-3.12.4.tar.xz’ saved [20659356/20659356]
+
+Installing Python-3.12.4...
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/bz2.py&quot;, line 17, in &lt;module&gt;
+    from _bz2 import BZ2Compressor, BZ2Decompressor
+ModuleNotFoundError: No module named &#x27;_bz2&#x27;
+WARNING: The Python bz2 extension was not compiled. Missing the bzip2 lib?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/curses/__init__.py&quot;, line 13, in &lt;module&gt;
+    from _curses import *
+ModuleNotFoundError: No module named &#x27;_curses&#x27;
+WARNING: The Python curses extension was not compiled. Missing the ncurses lib?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/ctypes/__init__.py&quot;, line 8, in &lt;module&gt;
+    from _ctypes import Union, Structure, Array
+ModuleNotFoundError: No module named &#x27;_ctypes&#x27;
+WARNING: The Python ctypes extension was not compiled. Missing the libffi lib?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+ModuleNotFoundError: No module named &#x27;readline&#x27;
+WARNING: The Python readline extension was not compiled. Missing the GNU readline lib?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/sqlite3/__init__.py&quot;, line 57, in &lt;module&gt;
+    from sqlite3.dbapi2 import *
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/sqlite3/dbapi2.py&quot;, line 27, in &lt;module&gt;
+    from _sqlite3 import *
+ModuleNotFoundError: No module named &#x27;_sqlite3&#x27;
+WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/tkinter/__init__.py&quot;, line 38, in &lt;module&gt;
+    import _tkinter # If this fails your Python may not be configured for Tk
+    ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named &#x27;_tkinter&#x27;
+WARNING: The Python tkinter extension was not compiled and GUI subsystem has been detected. Missing the Tk toolkit?
+Traceback (most recent call last):
+  File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;
+  File &quot;/root/.pyenv/versions/3.12.4/lib/python3.12/lzma.py&quot;, line 27, in &lt;module&gt;
+    from _lzma import *
+ModuleNotFoundError: No module named &#x27;_lzma&#x27;
+WARNING: The Python lzma extension was not compiled. Missing the lzma lib?
+Installed Python-3.12.4 to /root/.pyenv/versions/3.12.4</code></pre>
 
 <p>这种情况是因缺少依赖库：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev tk-dev libffi-dev liblzma-dev libreadline-dev</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">其他平台根据情况修改</span></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight shell">sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev tk-dev libffi-dev liblzma-dev libreadline-dev
+<span class="meta prompt_"># </span><span class="language-bash">其他平台根据情况修改</span></code></pre>
 
 <div class="article-footer fs14">
     <section id="license">
