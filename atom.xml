@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>北极狐的世界</title>
+  <title>Flynn</title>
   <icon>http://atricfox.github.io/icon.png</icon>
-  
+  <subtitle>飞翔的海鸥</subtitle>
   <link href="http://atricfox.github.io/atom.xml" rel="self"/>
   
   <link href="http://atricfox.github.io/"/>
