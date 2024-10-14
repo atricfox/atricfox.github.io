@@ -6,7 +6,7 @@
   <link href="http://flynnblog.com/atom.xml" rel="self"/>
   
   <link href="http://flynnblog.com/"/>
-  <updated>2024-10-12T04:19:10.861Z</updated>
+  <updated>2024-10-14T13:30:52.146Z</updated>
   <id>http://flynnblog.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024年 Q4 季度 OKR</title>
+    <link href="http://flynnblog.com/20241014/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/2024%E5%B9%B4Q4%E5%AD%A3%E5%BA%A6OKR/"/>
+    <id>http://flynnblog.com/20241014/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/2024%E5%B9%B4Q4%E5%AD%A3%E5%BA%A6OKR/</id>
+    <published>2024-10-13T16:00:00.000Z</published>
+    <updated>2024-10-14T13:30:52.146Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;tag-plugin colorful okr&quot; &gt;
+  &lt;div class=&quot;okr-item o&quot; id=&quot;okr-o1&quot;&gt;
+    &lt;div class=&quot;okr-left&quot;&gt;
+      &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="个人管理" scheme="http://flynnblog.com/categories/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="OKR" scheme="http://flynnblog.com/tags/OKR/"/>
+    
+  </entry>
   
   <entry>
     <title>重启博客写作</title>
