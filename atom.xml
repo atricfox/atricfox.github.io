@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Flynn 独立之程</title>
+  <icon>http://flynnblog.com/icon.png</icon>
+  <subtitle>记录一个独立开发者的长期之路</subtitle>
+  <link href="http://flynnblog.com/atom.xml" rel="self"/>
+  
+  <link href="http://flynnblog.com/"/>
+  <updated>2025-10-21T00:54:57.700Z</updated>
+  <id>http://flynnblog.com/</id>
+  
+  <author>
+    <name>Flynn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在线验证商业理念最明智的方法</title>
+    <link href="http://flynnblog.com/20251015/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/%E5%9C%A8%E7%BA%BF%E9%AA%8C%E8%AF%81%E5%95%86%E4%B8%9A%E7%90%86%E5%BF%B5%E6%9C%80%E6%98%8E%E6%99%BA%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>http://flynnblog.com/20251015/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/%E5%9C%A8%E7%BA%BF%E9%AA%8C%E8%AF%81%E5%95%86%E4%B8%9A%E7%90%86%E5%BF%B5%E6%9C%80%E6%98%8E%E6%99%BA%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+    <published>2025-10-14T16:00:00.000Z</published>
+    <updated>2025-10-21T00:54:57.700Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Reddit 社区有创业者发帖提出了一个好的问题：在线验证商业理念最明智的方法是什么？（En原话： What’s the smartest way to validate a business idea</summary>
+        
+      
+    
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/categories/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/tags/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="PFM" scheme="http://flynnblog.com/tags/PFM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>1年内如何从 $0 到 $20,000？</title>
+    <link href="http://flynnblog.com/20251012/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/1%E5%B9%B4%E5%86%85%E5%A6%82%E4%BD%95%E4%BB%8E%20$0%20%E5%88%B0%20$20,000%EF%BC%9F/"/>
+    <id>http://flynnblog.com/20251012/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/1%E5%B9%B4%E5%86%85%E5%A6%82%E4%BD%95%E4%BB%8E%20$0%20%E5%88%B0%20$20,000%EF%BC%9F/</id>
+    <published>2025-10-11T16:00:00.000Z</published>
+    <updated>2025-10-21T00:54:50.189Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;日前，有位开发者在reddit发帖“ The lessons I learned scaling my app from $0 to $20k&amp;#x2F;mo in 1 year”分享了自己1年内如何从 $0 到</summary>
+        
+      
+    
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/categories/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/tags/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="增长黑客" scheme="http://flynnblog.com/tags/%E5%A2%9E%E9%95%BF%E9%BB%91%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何通过3个月达成 $10K 的业务</title>
+    <link href="http://flynnblog.com/20251012/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%873%E4%B8%AA%E6%9C%88%E8%BE%BE%E6%88%90%20$10K%20%E7%9A%84%E4%B8%9A%E5%8A%A1/"/>
+    <id>http://flynnblog.com/20251012/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E4%BA%A7%E5%93%81%E6%8B%86%E8%A7%A3/%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%873%E4%B8%AA%E6%9C%88%E8%BE%BE%E6%88%90%20$10K%20%E7%9A%84%E4%B8%9A%E5%8A%A1/</id>
+    <published>2025-10-11T16:00:00.000Z</published>
+    <updated>2025-10-21T00:54:54.397Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;多渠道并进、内容与工具结合、注重SEO和真实故事分享，用时间复利获客并坚守长期主义是独立开发者的一个很好的实践经验。独立开发者要以“精细运营+真实价值+执行力”为基础做好产品早期增长和信任积累。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;日前Sup</summary>
+        
+      
+    
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/categories/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="独立开发" scheme="http://flynnblog.com/tags/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="小微" scheme="http://flynnblog.com/tags/%E5%B0%8F%E5%BE%AE/"/>
+    
+    <category term="SEO" scheme="http://flynnblog.com/tags/SEO/"/>
+    
+    <category term="推广" scheme="http://flynnblog.com/tags/%E6%8E%A8%E5%B9%BF/"/>
+    
+    <category term="渠道" scheme="http://flynnblog.com/tags/%E6%B8%A0%E9%81%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2024年 Q4 季度 OKR</title>
+    <link href="http://flynnblog.com/20241014/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/2024%E5%B9%B4Q4%E5%AD%A3%E5%BA%A6OKR/"/>
+    <id>http://flynnblog.com/20241014/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/2024%E5%B9%B4Q4%E5%AD%A3%E5%BA%A6OKR/</id>
+    <published>2024-10-13T16:00:00.000Z</published>
+    <updated>2024-10-14T23:50:51.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;tag-plugin colorful okr&quot; &gt;
+  &lt;div class=&quot;okr-item o&quot; id=&quot;okr-o1&quot;&gt;
+    &lt;div class=&quot;okr-left&quot;&gt;
+      &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="个人管理" scheme="http://flynnblog.com/categories/%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="OKR" scheme="http://flynnblog.com/tags/OKR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重启博客写作</title>
+    <link href="http://flynnblog.com/20241012/%E6%9D%82%E8%B0%88/%E9%87%8D%E5%90%AF%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C/"/>
+    <id>http://flynnblog.com/20241012/%E6%9D%82%E8%B0%88/%E9%87%8D%E5%90%AF%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C/</id>
+    <published>2024-10-11T16:00:00.000Z</published>
+    <updated>2024-10-12T04:19:10.861Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在这个短视频滥觞的年代，我又重启了博客写作。当然，之前也是屡次重启，又屡次中断。反倒是人到中年时，才考虑重启这个不太 Fashion</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="http://flynnblog.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="博客" scheme="http://flynnblog.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="自媒体" scheme="http://flynnblog.com/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>“葱鲔火锅式”读书笔记法</title>
+    <link href="http://flynnblog.com/20241003/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E2%80%9C%E8%91%B1%E9%B2%94%E7%81%AB%E9%94%85%E5%BC%8F%E2%80%9D%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E6%B3%95/"/>
+    <id>http://flynnblog.com/20241003/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E2%80%9C%E8%91%B1%E9%B2%94%E7%81%AB%E9%94%85%E5%BC%8F%E2%80%9D%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E6%B3%95/</id>
+    <published>2024-10-02T16:00:00.000Z</published>
+    <updated>2024-10-12T08:02:36.099Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;“葱鲔火锅式”读书笔记法简介&quot;&gt;&lt;a href=&quot;#“葱鲔火锅式”读书笔记法简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习提升" scheme="http://flynnblog.com/categories/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/"/>
+    
+    
+    <category term="读书笔记法" scheme="http://flynnblog.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E6%B3%95/"/>
+    
+    <category term="学习方法" scheme="http://flynnblog.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何想到又做到？</title>
+    <link href="http://flynnblog.com/20241003/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E5%A6%82%E4%BD%95%E6%83%B3%E5%88%B0%E5%8F%88%E5%81%9A%E5%88%B0%EF%BC%9F/"/>
+    <id>http://flynnblog.com/20241003/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/%E5%A6%82%E4%BD%95%E6%83%B3%E5%88%B0%E5%8F%88%E5%81%9A%E5%88%B0%EF%BC%9F/</id>
+    <published>2024-10-02T16:00:00.000Z</published>
+    <updated>2024-10-11T14:29:48.361Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;确定目标，运用SMART法则&lt;/li&gt;
+&lt;li&gt;明确目标对自己的意义，无意义则舍弃&lt;/li&gt;
+&lt;li&gt;制定可执行的计划，拆分目标为若干里程碑点&lt;/li&gt;
+&lt;li&gt;放在个人的自动化系统中，使用系统和习惯驱动完成每一个小目标。&lt;/li&gt;
+&lt;li&gt;持续行动和改进。&lt;/</summary>
+        
+      
+    
+    
+    
+    <category term="学习提升" scheme="http://flynnblog.com/categories/%E5%AD%A6%E4%B9%A0%E6%8F%90%E5%8D%87/"/>
+    
+    
+    <category term="思维" scheme="http://flynnblog.com/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="提升" scheme="http://flynnblog.com/tags/%E6%8F%90%E5%8D%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如之奈何论</title>
+    <link href="http://flynnblog.com/20241003/%E6%9D%82%E8%B0%88/%E5%A6%82%E4%B9%8B%E5%A5%88%E4%BD%95%E8%AE%BA/"/>
+    <id>http://flynnblog.com/20241003/%E6%9D%82%E8%B0%88/%E5%A6%82%E4%B9%8B%E5%A5%88%E4%BD%95%E8%AE%BA/</id>
+    <published>2024-10-02T16:00:00.000Z</published>
+    <updated>2024-10-11T13:51:29.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;史记所载：汉高帝刘邦每遇难题便问子房：“如之奈何？”因之而后人诟病高帝。大谬也!&lt;/p&gt;
+&lt;p&gt;高祖者，何人哉？国之首也！每遇事辄则自做主张，而不与众相商，如项籍小儿，势必败矣！&lt;/p&gt;
+&lt;p&gt;一人之力有穷，众者之智难量。大鹏无羽翼之助无以翱翔，猎豹无键肢之力何以本奔驰。英</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="http://flynnblog.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="历史" scheme="http://flynnblog.com/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+    <category term="管理" scheme="http://flynnblog.com/tags/%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="杂谈" scheme="http://flynnblog.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pyenv安装管理及踩坑指南</title>
+    <link href="http://flynnblog.com/20240612/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/Pyenv%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E5%8F%8A%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/"/>
+    <id>http://flynnblog.com/20240612/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/Pyenv%E5%AE%89%E8%A3%85%E7%AE%A1%E7%90%86%E5%8F%8A%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97/</id>
+    <published>2024-06-11T16:00:00.000Z</published>
+    <updated>2024-10-11T14:29:58.661Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近重做了一下Mac 系统，Python开发环境需要重新安装。pyenv 很久没有碰，记录一下踩坑记录。&lt;/p&gt;
+&lt;h2 id=&quot;安装pyenv&quot;&gt;&lt;a href=&quot;#安装pyenv&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程开发" scheme="http://flynnblog.com/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="python" scheme="http://flynnblog.com/tags/python/"/>
+    
+    <category term="pyenv" scheme="http://flynnblog.com/tags/pyenv/"/>
+    
+  </entry>
+  
+</feed>
