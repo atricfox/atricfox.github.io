@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://atricfox.github.io/setupcarry/sitemap-index.xml
+Sitemap: https://www.flynnblog.com/setupcarry/sitemap-index.xml
