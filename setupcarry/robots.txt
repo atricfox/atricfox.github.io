@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atricfox.github.io/setupcarry/sitemap-index.xml
